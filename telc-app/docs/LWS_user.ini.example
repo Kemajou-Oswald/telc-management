@@ -1,0 +1,13 @@
+; LWS mutualise: exemple de configuration PHP (si .user.ini est supporte)
+; Place ce fichier a la racine du site (ou a l'emplacement indique par LWS).
+
+memory_limit = 256M
+max_execution_time = 180
+max_input_time = 120
+post_max_size = 32M
+upload_max_filesize = 32M
+max_input_vars = 3000
+
+; Optionnel: evite certaines lenteurs reseau (si supporte)
+default_socket_timeout = 10
+
